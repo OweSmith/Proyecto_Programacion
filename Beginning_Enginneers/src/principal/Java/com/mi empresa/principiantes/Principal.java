@@ -1,8 +1,6 @@
 package com.mycompany.beginning_enginneers;
 
 import javax.swing.JOptionPane;
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
 
 public class Principal {
 
@@ -215,29 +213,5 @@ break;
 
     }// fin del main
   
-    public void iconoCPU(){
-    Icon cpu = new ImageIcon(getClass().getResource("/iconos_progra/cpu.png"));
-    JOptionPane.showMessageDialog(null,"***********Favor seleccionar una opción***********","***********Bienvenido al apartado de CPU´s***********", JOptionPane.INFORMATION_MESSAGE, cpu);
-    }// fin de icono de cpu
-    
-    public void iconoGPU(){
-    
-    
-    }// fin de icono de cpu
-    
-    public void iconoRAM(){
-    
-    
-    }// fin de icono de cpu
-    
-    public void iconoMB(){
-    
-    
-    }// fin de icono de cpu
-    
-    public void iconoPS(){
-    
-    
-    }// fin de icono de cpu
-    
+      
 }// fin del Principal
